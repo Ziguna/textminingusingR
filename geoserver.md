@@ -3,7 +3,7 @@ What is Geoserver ?
 Geoserver is the open server platform which is written in Java that allows users to create, share, edit the geospatial data which contains both raster and vector data. The main benefit of using then geoserver is it is free, can handle large amount of datasets and produces a high quality maps. Geoserver also contains very high quality documentation for its use which can be found on (https://docs.geoserver.org/). In our project, we have mapped the bin co-ordinates of the Moers City into the geoserver. 
 
 
-Installing a Geoserver in Linux computers 
+INSTALLING A GEOSERVER IN A LINUX COMPUTERS 
 
 1. At first we need to install the Java Runtime Environment(JRE) in order to install the Geoserver. Geoserver requires the Java 8 environment and Java 9 is still not supported by the geoserver. Either Java Runtine Environment(JRE) or Java Development Kit( JDK) will be good to go. Both Oracle JDK and Open JDK will be okay.
 
@@ -136,8 +136,8 @@ As you can from the figure above there are Title named “World Rectangle”, �
 
 Similarly if I click on the “Manhattan(NY) landmarks” another map will open. So Layer Preview will help us to display the maps whicha are altready there in the geoserver databases. 
 
-
-Pushing a shape file 
+ 
+PUSHING A SHAPE FILE
 
 After getting to know about the basic interface of the geoserver, its time to add some shape files which we have created in our QGIS project. (QGIS stands for Quantum Geographic Information System. QGIS is a cross platform, open sourrce software which is designed for the viewing, editing, and adding the geospatial data. QGIS allows you to add layers, maps, data and many other maps related things.) 
 
@@ -312,10 +312,8 @@ Our shape file has been created, edited and ready to be view. We have just loade
 
 
 
-
-
-
-Adding a Web Map Service (WMS) 
+ 
+ADDING A WEB MAP SERVINCE (WMS)
 
 
 Web map service (WMS) is a service provided by the geoserver which helps to add the set of map layers. We can add number of styles, layers and projections by the help of wms. 
@@ -367,7 +365,7 @@ Once we have added the layer the job here now is to merge the two parts. The sha
 
 
 
-Grouping Layers
+GROUPING LAYERS
 
 Layers grouping can be defined as merging the two layers into one. Here we have one layer which contains the shape file of longitude and latitude and another layer that contains the map. 
 
@@ -411,7 +409,7 @@ Layers grouping can be defined as merging the two layers into one. Here we have 
 
 
 
-Prevewing Results
+PREVEWING RESULTS 
 
 After grouping the results we have in total of three layers and these layers can be seen in the Layers Preview. 
 
